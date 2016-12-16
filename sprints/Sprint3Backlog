@@ -1,0 +1,30 @@
+February 28 to March7
+
+
+User Stories from Product Backlog that we will address in this sprint:
+a) As a user, I want to create a new directory
+b) As a user, I want to change the current directory to a new exist directory 
+c) As a user, I want to print the contents of the current directory,a specific file,or a other contents of specific directory according to my input.
+d) As a user, I want to print the current working directory.
+
+
+Specific tasks to be accomplished:
+a-1. (test)       test case for echo,cat ,mkdir and history.
+b-1. (test)       test case for cd,pwd,man and exit.
+c-1. (test)       test case for cd,push,and path
+d-1. (test)       test case for poped, file, fileDirectory and command.
+
+
+
+These tasks are assigned as follows:
+
+User: c4wangbo
+Tasks: a-1
+
+User: c5wuzhif
+Tasks: b-1
+
+User: c5dingyi
+Tasks: c-1
+User: c5zhouxk
+Tasks: d-1

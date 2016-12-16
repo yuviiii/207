@@ -1,0 +1,39 @@
+March 13 to March 19
+
+
+User Stories from Product Backlog that we will address in this sprint:
+a) As a user, I want to create a new directory
+b) As a user, I want to change the current directory to a new exist directory 
+c) As a user, I want to print the contents of the current directory,a specific file,or a other contents of specific directory according to my input.
+d) As a user, I want to print the current working directory.
+
+
+Specific tasks to be accomplished:
+a-1. (FileTree)           Write the base code for FileTree class 
+a-2. (CommandGrep)  	  Write the base code CommandGrep class
+a-3. (JShell)         	  Write addition outFile for the JShell class
+b-1. (CommandLs)   		  Write addition code for CommandLs class
+b-2. (Command!number)     Write the base code for Command!number class
+b-3. (JShell)         	  Write addition outFile for the JShell class
+c-1. (CommandGet)         Write the base code for CommandGet class
+c-2. (Path)           	  Write addition code for the Path class
+c-3. (JShell)         	  Write addition outFile for the JShell class
+d-1. (CommandCat)         Write addition code for the CommandCat class
+d-2. (CommandMv)          Write addition code for CommandMv class
+d-3. (CommandCp)          Write addition code for CommandCp class
+
+
+
+These tasks are assigned as follows:
+
+User: c4wangbo
+Tasks: a-1,a-2,a-3
+
+User: c5wuzhif
+Tasks: b-1,b-2,b-3
+
+User: c5dingyi
+Tasks: c-1,c-2,c-3
+
+User: c5zhouxk
+Tasks: d-1,d-2,d-3
