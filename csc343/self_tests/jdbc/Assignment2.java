@@ -119,7 +119,7 @@ public class Assignment2 {
       sql = "SELECT h2, sum(r1 * r2) AS score " +
                     "FROM pairs " +
                     "GROUP BY h2 " +
-                    "HAVING sum(r1 * r2) > 0 " +
+                    "HAVING sum(r1 * r2) >= 0 " +
                     "ORDER BY score DESC, h2 ";
       st = connection.prepareStatement(sql);
       ResultSet rs = st.executeQuery();
@@ -133,13 +133,28 @@ public class Assignment2 {
         if (count == 1) {
           boolean flag = true;
           while (rs.next() && flag) {
+            System.out.println(rs.getInt("h2"));
             Float curScore = rs.getFloat("score");
             if (Float.compare(curScore, tenthScore) == 0) {
-              result.add(homeowner);
+              Integer curOwner = rs.getInt("h2");
+              result.add(curOwner);
             } else {
               flag = false;
             }
           }
+          System.out.println("keek");
+          // check the last item that does not have rs.next()
+          // if (flag) {
+          //   Float curScore = rs.getFloat("score");
+          //   if (Float.compare(curScore, tenthScore) == 0) {
+          //     Integer curOwner = rs.getInt("h2");
+          //     result.add(curOwner);
+          //   } else {
+          //     flag = false;
+          //   }
+          // }
+          Integer curOwner = rs.getInt("h2");
+          System.out.println(curOwner);
         }
         count--;
       }

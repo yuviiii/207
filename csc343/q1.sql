@@ -1,27 +1,35 @@
+
+
 SET search_path TO bnb, public;
-drop view if exists request cascade;
-drop view if exists bookings cascade;
-drop view if exists allnum cascade;
+DROP VIEW if exists HadRequest cascade;
+DROP VIEW if exists HadBooking cascade;
+DROP VIEW if exists numRequest cascade;
+DROP VIEW if exists numBooking cascade;
 
 
-create view request as
-select extract(year from BookingRequest.startdate) as year, travelerId, requestId
-from BookingRequest
-where extract(year from BookingRequest.startdate)>=2007;
+CREATE VIEW HadRequest AS
+SELECT travelerId, requestId, CAST(EXTRACT(YEAR FROM br.startdate) AS INT) AS year
+FROM BookingRequest br
+WHERE EXTRACT(YEAR FROM br.startdate) >= EXTRACT(YEAR FROM CURRENT_DATE) - 10
+		AND EXTRACT(YEAR FROM br.startdate) < EXTRACT(YEAR FROM CURRENT_DATE);
 
-create view bookings as
-select extract(year from Booking.startdate) as year, travelerId, listingId
-from Booking
-where extract(year from Booking.startdate)>=2007;
+CREATE VIEW numRequest AS
+SELECT travelerId, year, count(*) AS numRequests
+FROM HadRequest
+GROUP BY travelerId, year;
 
-create view allnum as
-select travelerId, email, year, requestId, listingId
-from (request NATURAL FULL JOIN bookings) NATURAL FULL JOIN Traveler;
+CREATE VIEW HadBooking AS
+SELECT travelerID, listingId, CAST(EXTRACT(YEAR FROM Booking.startdate) AS INT) AS year
+FROM  Booking
+WHERE EXTRACT(YEAR FROM Booking.startdate) >= EXTRACT(YEAR FROM CURRENT_DATE) - 10
+		AND EXTRACT(YEAR FROM Booking.startdate) < EXTRACT(YEAR FROM CURRENT_DATE);
 
-select travelerId, email, year, count(requestId) as numRequests, count(listingId) as numBooking
-from allnum
-group by travelerId, email, year
-order by year;
+CREATE VIEW numBooking AS
+SELECT travelerId, year, count(*) AS numBooking
+FROM HadBooking
+GROUP BY travelerId, year;
 
-
+SELECT travelerId, email, year, COALESCE(numRequests, 0) AS numRequests, COALESCE(numBooking, 0) AS numBooking
+FROM (numRequest NATURAL FULL JOIN numBooking) NATURAL FULL JOIN Traveler
+ORDER BY year DESC, travelerId;
 
