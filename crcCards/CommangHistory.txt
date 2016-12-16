@@ -1,0 +1,8 @@
+Class name: CommandHistory
+Parent class: Command
+Subclasses: N/A
+
+Responsibilities:
+* Print out specific numbers of commands according to the input.
+* 
+Collaborators:

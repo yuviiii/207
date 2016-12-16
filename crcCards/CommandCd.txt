@@ -1,0 +1,10 @@
+Class name: CommandCd 
+Parent class: Command
+Subclasses: N/A
+
+Responsibilities:
+* Change directory to DIR.
+
+Collaborators:
+* File
+* Path

@@ -1,0 +1,9 @@
+Class name: CommandNumber
+Parent class: Command
+Subclasses: N/A
+
+Responsibilities:
+* find out the specific history and execute it
+
+Collaborators:
+* CommandHistory

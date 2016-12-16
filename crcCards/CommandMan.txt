@@ -1,0 +1,8 @@
+Class name: CommandMan
+Parent class: Command
+Subclasses: N/A
+
+Responsibilities:
+* Print documentation for CMD
+
+Collaborators:

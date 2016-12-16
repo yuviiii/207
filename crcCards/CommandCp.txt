@@ -1,0 +1,12 @@
+Class name: CommandCp
+Parent class: Command
+Subclasses: N/A
+
+Responsibilities:
+* Copy item OLDPATH to NEWPATH.
+* If NEWPATH is a directory, copy the item into the directory.
+* If OLDPATH is a directory, copy the contents. 
+
+Collaborators:
+* Path
+* File

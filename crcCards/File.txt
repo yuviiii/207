@@ -1,0 +1,12 @@
+Class name: File
+Parent class: N/A
+Subclasses: FileDirectory, Path, FileSystem
+
+Responsibilities:
+* Add files
+* Store files
+* Report contents
+
+Collaborators:
+* Symbol
+* Result

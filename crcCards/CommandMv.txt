@@ -1,0 +1,13 @@
+Class name: CommandMv
+Parent class: Command
+Subclasses: N/A
+
+Responsibilities:
+* Move item OLDPATH to NEWPATH.
+* If NEWPATH is a directory, move the item into the directory.
+* If the item represented by NEWPATH does not exist in the required directory,
+  rename the item represented by OLDPATH and move it.
+
+Collaborators:
+* Path
+* File

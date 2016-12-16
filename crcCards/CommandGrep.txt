@@ -1,0 +1,12 @@
+Class name: CommandGrep
+Parent class: Command
+Subclasses: N/A
+
+Responsibilities:
+* find out the specific line from a file.
+* recursively go through a directory and find file that contains specific 
+  content.
+
+Collaborators:
+* Path
+* File

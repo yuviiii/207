@@ -1,0 +1,11 @@
+Class name: CommandGet
+Parent class: Command
+Subclasses: N/A
+
+Responsibilities:
+* Retrieve the file at URL.
+* Add it to the current working directory.
+
+Collaborators:
+* Path
+* File

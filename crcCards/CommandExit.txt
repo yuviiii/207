@@ -1,0 +1,8 @@
+Class name: CommandExit
+Parent class: Command
+Subclasses: N/A
+
+Responsibilities:
+* Quit the program
+
+Collaborators:

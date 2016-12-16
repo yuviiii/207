@@ -1,0 +1,11 @@
+Class name: Edit
+Parent class: N/A
+Subclasses: N/A
+
+Responsibilities:
+* Execute the redirection for each command.
+* If command error, print the error message.
+
+Collaborators:
+* Result
+* Symbol
