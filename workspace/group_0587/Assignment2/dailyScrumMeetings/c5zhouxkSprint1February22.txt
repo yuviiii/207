@@ -1,0 +1,11 @@
+What did I do last time?
+    - I worked on JShell and CommandPwd
+    - Finish writhing FileSystem
+
+What do I plan to do now?
+    - finish JShell
+    - start working on the interpreter
+
+Am I blocked on anything?
+    - still struggle in  writing the Interpreter
+    - confused on if it is necessary on writing more methods to call on in FileSystem

@@ -1,0 +1,9 @@
+Class name: CommandMkdir
+Parent class: Command
+Subclasses: N/A
+
+Responsibilities:
+* Create a directory DIR.
+Collaborators:
+* Result
+* Symbol

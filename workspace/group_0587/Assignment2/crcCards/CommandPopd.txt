@@ -1,0 +1,10 @@
+Class name: CommandPopd
+Parent class: Command
+Subclasses: N/A
+
+Responsibilities:
+* Remove the top entry from	the	directory stack.
+* Make the top entry the current working directory.
+Collaborators:
+* Result
+* Symbol

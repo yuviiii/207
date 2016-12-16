@@ -1,0 +1,10 @@
+Class name: CommandLs
+Parent class: Command
+Subclasses: N/A
+
+Responsibilities:
+* Read the names of files and directories in the current directory.
+* Print the names of files and directories in the current directory.
+Collaborators:
+* Result
+* Symbol

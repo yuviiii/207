@@ -1,0 +1,13 @@
+Class name: File
+Parent class: N/A
+Subclasses: FileDirectory, Path, FileSystem
+
+Responsibilities:
+* Add to contents
+* Write contents
+* Report contents
+* Delete contents
+
+Collaborators:
+* Symbol
+* Result

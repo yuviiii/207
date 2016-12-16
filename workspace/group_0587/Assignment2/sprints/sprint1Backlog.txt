@@ -1,0 +1,42 @@
+February 17 to February 22
+
+
+User Stories from Product Backlog that we will address in this sprint:
+a) As a user, I want to create a new directory
+b) As a user, I want to change the current directory to a new exist directory 
+c) As a user, I want to print the contents of the current directory,a specific file,or a other contents of specific directory according to my input.
+d) As a user, I want to print the current working directory.
+
+
+Specific tasks to be accomplished:
+a-1. (File)           Write the base code for the File class 
+a-2. (FileDirecotry)  Write the base code for the FileDirectory class
+a-3. (CommandMkdir)   Write code that can call the CommandMkdir
+a-4. (JShell)         Write code that can call the CommandMkdir
+b-1. (Error)          Write the base code for the Error class
+b-2. (Path)           Write the base code for the Path class
+b-3. (CommandCd)      Write the base code for the CommandCD
+b-4. (JShell)         Write code that can call the CommandCD
+c-1. (Result)         Write the base code for the Result
+c-2. (Symbol)         Write the base code for the Symbol
+c-3. (CommandLs)      Write the base code for the CommandLS class
+c-4. (JShell)         Write code that can call the CommandLS class
+d-1. (FileSystem)     Write the base code for the FileSystem class
+d-2. (Interpreter)    Write the base code for the Interpreter class
+d-3. (CommandPwd)     Write the base code for the CommandPwd class
+d-4  (JShell)         Write code that can call the CommandPwd class
+
+
+These tasks are assigned as follows:
+
+User: c4wangbo
+Tasks: a-1,a-2,a-3
+
+User: c5wuzhif
+Tasks: b-1,b-2,b-3
+
+User: c5dingyi
+Tasks: c-1,c-2,c-3
+
+User: c5zhouxk
+Tasks: d-1,d-2,d-3

@@ -1,0 +1,9 @@
+What did I do last time?
+    - Still working on Result, Symbol and CommandLs
+
+What do I plan to do now?
+    - finish the commands I wrote and debug.
+    - come up with designing ideas for other classes with my team    
+
+Am I blocked on anything?
+    - Have some problems with implementing classes efficiently.

@@ -1,0 +1,11 @@
+What did I do last time?
+    - worked on JShell and Path and File
+    - argue some ideas with team members for Path and Error classes. 
+
+What do I plan to do now?
+    - still trying to finish JShell and File and Path
+    - work on new tasks for sprint 3
+        - start and finish History, Pop, Push
+
+Am I blocked on anything?
+    - Need Path, File, Error, and FileSystem to be completed (or at least prototyped) before I can continue working

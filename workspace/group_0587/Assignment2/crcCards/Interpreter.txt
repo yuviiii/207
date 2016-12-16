@@ -1,0 +1,13 @@
+Class name: Interpreter
+Parent class: N/A
+Subclasses: N/A
+
+Responsibilities:
+* Parse the source command and perform its behavior directly
+* Translate source command into some efficient intermediate representation 
+and immediately execute this
+* explicitly execute stored command made by a compiler
+
+Collaborators:
+* Symbol
+* Result

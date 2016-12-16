@@ -1,0 +1,9 @@
+What did I do last time?
+    - I finished JShell and CommandPwd
+
+What do I plan to do no?
+    - start working on the interpreter
+
+Am I blocked on anything?
+    - still struggle in  writing the Interpreter
+    - struggle in writing path

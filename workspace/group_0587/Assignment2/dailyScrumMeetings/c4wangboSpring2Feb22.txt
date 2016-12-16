@@ -1,0 +1,11 @@
+What did I do last time?
+    - I worked on JShell,File,FileDirectory and CommandMkdir
+ 
+
+What do I plan to do now?
+    - write comment on the code that I have finished
+    - seeking task and work on new tasks for sprint 2
+       
+
+Am I blocked on anything?
+    - Struggling on connect code together.Dont have a very clear mind of the connection between the,

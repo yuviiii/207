@@ -1,0 +1,9 @@
+Class name: CommandPwd
+Parent class: Command
+Subclasses: N/A
+
+Responsibilities:
+* Print the current working directory(including the whole path).
+Collaborators:
+* Result
+* Symbol

@@ -1,0 +1,9 @@
+Class name: Symbol
+Parent class: N/A
+Subclasses: N/A
+
+Responsibilities:
+* Contains meta symbols, numbers or words
+
+Collaborators:
+* N/A

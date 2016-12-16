@@ -1,0 +1,10 @@
+Class name: CommandPushd
+Parent class: Command
+Subclasses: N/A
+
+Responsibilities:
+* Push current working directory onto directory stack.
+* Change the new current working directory to DIR.
+Collaborators:
+* Result
+* Symbol

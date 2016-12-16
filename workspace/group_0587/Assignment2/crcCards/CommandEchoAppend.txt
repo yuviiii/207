@@ -1,0 +1,11 @@
+Class name: CommandEchoAppend
+Parent class: Command, CommandEcho
+Subclasses: N/A
+
+Responsibilities:
+* Put STRING in file OUTFILE.
+* Create a new file if OUTFILE does not exist.
+* Append the new context to the old one if OUTFILE already exists.
+Collaborators:
+* Result
+* Symbol

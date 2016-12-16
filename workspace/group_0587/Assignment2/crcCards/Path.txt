@@ -1,0 +1,14 @@
+Class name: Path
+Parent class: File
+Subclasses: N/A
+
+Responsibilities:
+* Rename the file
+* Delete the file
+* Test the existence
+* Create a file or text
+
+Collaborators:
+* Symbol
+* File
+* Result

@@ -1,0 +1,12 @@
+What did I do last time?
+    - I worked on JShell,FileSystem,and CommandPwd
+    - write some rough work for the interpreter
+
+What do I plan to do now?
+    - finish JShell and CommandPwd
+    - work on new tasks for sprint 2
+        - start writing FileSystem
+
+Am I blocked on anything?
+    - Difficult to write the Interpreter
+    - Need Symbol, File and FileDirectory for me to continue working on FileSystem

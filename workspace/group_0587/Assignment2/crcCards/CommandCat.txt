@@ -1,0 +1,10 @@
+Class name: CommandCat
+Parent class: Command
+Subclasses: N/A
+
+Responsibilities:
+* Get the file contents.
+* Display the contents in the shell.
+Collaborators:
+* Result
+* Symbol

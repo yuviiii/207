@@ -1,0 +1,11 @@
+Class name: FileSystem
+Parent class: File
+Subclasses: FileDirectory
+
+Responsibilities:
+* Control how data is stored.
+* Control how data is retrieved.
+
+Collaborators:
+* Symbol
+* Result

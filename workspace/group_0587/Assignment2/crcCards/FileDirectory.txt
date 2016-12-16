@@ -1,0 +1,12 @@
+Class name: FileDirectory
+Parent class: File, FileSystem
+Subclasses: N/A
+
+Responsibilities:
+* Store references to other computer files, and possibly other directories. 
+* Provide some relevancy to a workbench or the traditional office file cabinet.
+* Report the name of all files.
+
+Collaborators:
+* Symbol
+* Result

@@ -1,0 +1,10 @@
+What did I do last time?
+    - I worked on JShell, Result, Symbol and CommandLs
+    - I came up with design ideas with team for File and Path
+
+What do I plan to do now?
+    - finish Result, Symbol and CommandLs
+    - start working for sprint 3
+
+Am I blocked on anything?
+    - struggle in  writing the Symbol
