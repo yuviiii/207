@@ -1,0 +1,41 @@
+                                         User Stories                                                                                                                              Time estimate(Days)
+  
+Number1       As a user, I want to create a new directory.                                                                                                                               1                                                                                                                                                                                                                                             
+
+Number2       As a user, I want to change the current directory to a new exist directory.                                                                                                1
+
+Number3       As a user, I want to print the contents of the current directory,a specific file,or other contents of specific directory according to my input.                            1
+
+Number4       As a user, I want to print the current working directory.                                                                                                                  1
+ 
+Number5       As a user, I want to change the directory according to my input,and the old directory would not disappear,instead, it will be saved for my future uses.                    2
+
+Number6       As a user, I want to change the current directory to  what I most currently pushed.                                                                                        2
+
+Number7       As a user, I want to check the specific number of commands according to my input numbers.                                                                                  3
+ 
+Number8       As a user, I want to read txt files.                                                                                                                                       2
+
+Number9       As a user, I want to change the content of a file(if it exist) to my input String.                                                                                         2
+
+Number10      As a user, I want to append Strings to a file(if it exist)according to my input.                                                                                           2
+
+Number11      As a user, I want to get helping information about a specific command according to my input.                                                                               2
+
+Number12      As a user, I want to move an item into a specific directory.       
+
+Number13      As a user, I want to copy an item and paste it into a specific directory.
+
+Number14      As a user, I want to  retrieve the file at specific given URL and add it to the current working directory.  
+
+Number15      As a user, I want to recall a specific command from history.
+
+Number16      As a user, I want to print lines that contain specific strings from a file.
+
+Number17      As a user, I want to be able to get all the output information through a file . 
+
+Number18      As a user, I want to exit the program.   
+
+
+                                                                                                                            1
+
