@@ -1,0 +1,61 @@
+q4 + data4 - All good
+ Expected Columns:
+  ['percentage']
+ Actual Columns:
+  ['percentage']
+ Expected Rows:
+  (67,)
+ Actual Rows:
+  (67,)
+
+q8 + data8 - All good
+ Expected Columns:
+  ['travelerid', 'reciprocals', 'backscratches']
+ Actual Columns:
+  ['travelerid', 'reciprocals', 'backscratches']
+ Expected Rows:
+  (1001, 1, 1)
+  (1000, 0, 0)
+  (1002, 0, 0)
+ Actual Rows:
+  (1001, 1, 1)
+  (1000, 0, 0)
+  (1002, 0, 0)
+
+q3 + data3 - All good
+ Expected Columns:
+  ['homeowner', 'listingid', 'year', 'city']
+ Actual Columns:
+  ['homeowner', 'listingid', 'year', 'city']
+ Expected Rows:
+  (4000, 3000, 2016, 'c1')
+  (4001, 3001, 2016, 'c2')
+ Actual Rows:
+  (4000, 3000, 2016, 'c1')
+  (4001, 3001, 2016, 'c2')
+
+q1 + data1 - Expected row 0 to be (1002, 'fn3@domain.com', None, 0, 0) instead of (1001, 'fn2@domain.com', 2015, 1, 1)
+ Expected Columns:
+  ['travelerid', 'email', 'year', 'numrequests', 'numbooking']
+ Actual Columns:
+  ['travelerid', 'email', 'year', 'numrequests', 'numbooking']
+ Expected Rows:
+  (1002, 'fn3@domain.com', None, 0, 0)
+  (1003, 'fn4@domain.com', None, 0, 0)
+  (1000, 'fn1@domain.com', 2015, 2, 1)
+  (1001, 'fn2@domain.com', 2015, 1, 1)
+ Actual Rows:
+  (1001, 'fn2@domain.com', 2015, 1, 1)
+  (1000, 'fn1@domain.com', 2015, 2, 2)
+  (1003, 'fn4@domain.com', None, 0, 0)
+  (1002, 'fn3@domain.com', None, 0, 0)
+
+q2 + data2 - The type of values in column 'email' does not match the expected type
+ Expected Columns:
+  ['travelerid', 'name', 'email', 'mostrequestedcity', 'numrequests']
+ Actual Columns:
+  ['travelerid', 'name', 'email', 'mostrequestedcity', 'requestnum']
+ Expected Rows:
+  (1002, 'f3 n3', 'fn3@domain.com', 'c1', 72)
+ Actual Rows:
+
